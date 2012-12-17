@@ -1,0 +1,91 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: arial;
+	color:#555;
+}
+ul.breadcrumbs{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+	border: 1px solid rgb(204, 204, 204);
+	height: 30px;
+	background: whiteSmoke;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#wrapper {
+	width:1000px;
+	margin: 0 auto;
+}
+#logo {
+	text-align: center;
+}
+h2.title {
+	margin:0 0 10px 0;
+	padding:7px 10px 7px 10px;
+	background:rgb(182, 229, 255);
+	font-size: 16px;
+	color:rgb(25, 118, 170);
+	
+}
+div.content {
+	padding:10px;
+}
+.demo {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 500px;
+	border:1px solid rgb(118, 206, 255);
+	position: relative;
+	
+}
+ul.breadcrumbs li:first-child{
+	margin-left:0;
+}
+ul.breadcrumbs li{
+	cursor: pointer;
+	display: inline-block;
+	margin:0;
+	padding:0px;
+	height:30px;
+	margin-left:-30px;
+	position: relative;
+	*float: left;
+
+	_float: left;
+}
+ul.breadcrumbs li:nth-child(1) {z-index:5 !important;}
+ul.breadcrumbs li:nth-child(2) {z-index:4 !important;}
+ul.breadcrumbs li:nth-child(3) {z-index:3 !important;}
+ul.breadcrumbs li:nth-child(4) {z-index:2 !important;}
+ul.breadcrumbs li:nth-child(5) {z-index:1 !important;}
+
+div.breadcrumb li:first-child a {
+	padding-left: 10px;
+}
+ul.breadcrumbs li a:hover { 
+		background: #ccc;
+}
+ul.breadcrumbs li:hover a{background: #d0d0d0; }
+ul.breadcrumbs li:hover { 
+
+	background: url('../img/crumb.png')  right -30px  no-repeat;                  
+
+}
+ul.breadcrumbs li {
+		background: url('../img/crumb.png') top right no-repeat;
+}
+ul.breadcrumbs li a{
+	text-decoration: none;
+	padding: 7px 15px 7px 35px;
+	margin-right: 30px;
+	background: whiteSmoke;
+	height:30px;
+	position: relative;
+	float: left;
+	font-size: 12px;
+}
